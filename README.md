@@ -96,6 +96,47 @@ React components usually return JSX, which is some sort of HTML in JavaScript ma
 Check it out:
 https://reactjs.org/docs/introducing-jsx.html
 
+# Component Examples
+Here is an example of a React and Vue 2 component for reference.
+
+### React
+```
+import React, { useState } from "react"
+
+function Example() {
+ const [count, setCount] = useState(0)
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  )
+}
+```
+(same example from above I know lol)
+
+### Vue 2
+```
+<template>
+  <div>
+    <button v-on:click="count++">You clicked me {{ count }} times.</button>
+  </div>
+</template>
+
+<script>
+ export default {
+  data() {
+    return {
+      count: 0
+    }
+  }
+ }
+</script>
+```
+
+
 # Where to go from here?
 
 Maybe you need something like **Vuex** for state management. React has a hook for that called `useContext`. 
