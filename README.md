@@ -4,7 +4,7 @@ Hey there! This is a guide for developers with Vue 2 experience, who might be in
 
 # But why?
 
-I know, this seems crazy... But we recently have adopted a new team at my work and their tech stack includes React. I've recently revisited React after using Vue for a long while, and after drawing the parallels between modern React and Vue, I believe sharing some of my learning experience could be of benefit to any other developer in this position.
+I know, this seems crazy... But we recently have adopted a new team at my work and their tech stack includes React. I've recently React after using Vue for a long while, and after drawing the parallels between modern React and Vue, I believe sharing some of my learning experience could be of benefit to any other developer in this position.
 
 ## Vue Lifecycle Hooks... But in React!
 
