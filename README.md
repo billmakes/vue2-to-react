@@ -121,18 +121,20 @@ function Example() {
 ```
 <template>
   <div>
-    <button v-on:click="count++">You clicked me {{ count }} times.</button>
+    <button @click="count++">
+      You clicked me {{ count }} times.
+    </button>
   </div>
 </template>
 
 <script>
- export default {
+export default {
   data() {
     return {
-      count: 0
+      count: 0,
     }
-  }
- }
+  },
+}
 </script>
 ```
 
